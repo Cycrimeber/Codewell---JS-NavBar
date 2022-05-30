@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Nav Bar</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="logo">
+            <img src="./Assets/Logo.svg" href="./index.html" alt="" />
+          </div>
+          <ul class="menu">
+            <div class="dropdownMenu menuItem">
+              <li id="product">Products</li>
+              <ul id="menuList">
+                <li id="menuList_1">
+                  Spense
+                  <p>
+                    Spense is a landing page for writers. Great for practicing
+                    absolute positioning and flex layouts.
+                  </p>
+                </li>
+                <li id="menuList_2">
+                  Fibre Landing Page
+                  <p>
+                    An online portfolio generator. Great to practice flex/grid
+                    layouts, and absolute positioning.
+                  </p>
+                </li>
+                <li id="menuList_3">
+                  Gradie Signup Page
+                  <p>
+                    Gradie is a simple signup page, great to practice centering
+                    layouts.
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <li>Challenges</li>
+            <li>Resources</li>
+            <li>Other Links</li>
+          </ul>
+          <li class="mobileMenu">
+            <img src="./Assets/Menu.svg" alt="" id="hamburgerMenu" />
+          </li>
+          <div class="sign-in">
+            <p>Sign in</p>
+            <button class="site-btn">Try for free</button>
+          </div>
+        </nav>
+      </header>
+      <!-- Mobile Dropdown -->
+      <div class="mobileMenuView">
+        <div id="mobileDropdown">
+          <li>
+            <h4>PRODUCTS</h4>
+            <img src="./Assets/Close.svg" id="close" alt="" />
+          </li>
+          <ul>
+            <li id="mobileMenuList_1">
+              Spense
+              <p>
+                Spense is a landing page for writers. Great for practicing
+                absolute positioning and flex layouts.
+              </p>
+            </li>
+            <li id="mobileMenuList_2">
+              Fibre Landing Page
+              <p>
+                An online portfolio generator. Great to practice flex/grid
+                layouts, and absolute positioning.
+              </p>
+            </li>
+            <li id="mobileMenuList_3">
+              Gradie Signup Page
+              <p>
+                Gradie is a simple signup page, great to practice centering
+                layouts.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Mobile Dropdown ends -->
+      <!-- Page body  -->
+      <section class="content">
+        <div class="body-left">
+          <h1>Ondeck is your remote <span>conference calling tool</span></h1>
+          <p>
+            Ondeck is a service that allows you to create beautiful, online, and
+            encrypted video calls for you and your remote team.
+          </p>
+          <button class="site-btn">Try for free</button>
+
+          <div class="ratings">
+            <p>5.0 Rating based on reviews from:</p>
+            <div>
+              <img src="./assets/Capterra Logo.svg" alt="" class="icon icon1" />
+
+              <img
+                src="./Assets/AlternativeTo Logo.svg"
+                alt=""
+                class="icon icon2"
+              />
+              <img src="./Assets/Capterra Logo.svg" alt="" class="icon icon3" />
+            </div>
+          </div>
+        </div>
+        <div class="body-right">
+          <img src="./Assets/Hero Image.png" alt="" />
+        </div>
+      </section>
+
+      <footer>
+        <p>Trusted by 3+ million people at companies like</p>
+        <div class="companies">
+          <img src="./Assets/Netflix Logo.svg" alt="" class="netflix" />
+          <img src="./Assets/Shopify Logo.svg" alt="" class="shopify" />
+          <img src="./Assets/Spotify Logo.svg" alt="" class="spotify" />
+          <img src="./Assets/Walmart Logo.svg" alt="" class="walmart" />
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
